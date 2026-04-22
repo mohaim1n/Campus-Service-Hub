@@ -1,0 +1,40 @@
+/* style.css */
+
+/* Warna tema utama untuk CampusHub */
+:root {
+    --primary-color: #0056b3;
+    --accent-color: #0056b3;
+}
+
+body {
+    background-color: #f4f7f6; /* Warna latar belakang lembut */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 15px; /* Sudut kad lebih bulat */
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+    transform: translateY(-2px); /* Kesan butang timbul */
+}
+
+footer {
+    background: #ffffff;
+    color: #6c757d;
+}
